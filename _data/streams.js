@@ -3,7 +3,7 @@ require('dotenv').config()
 const apiKey = process.env.AIRTABLE_API_KEY;
 const airtable = require('airtable');
 const Bottleneck = require('bottleneck');
-const base = new airtable({apiKey}).base('appIDPnCgGApCGUtF');
+const base = new airtable({apiKey}).base('appJLjzz4zyFkZcO3');
 
 const compareStreams = (a, b) => {
 	const streamA = new Date(a.startTime);
